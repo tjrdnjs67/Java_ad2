@@ -10,7 +10,8 @@ import java.util.Scanner;
 
 public class MemberConsoleMain {
 
-    private static final MemberRepository repository = new ObjectMemberRepository();
+    //private static final MemberRepository repository = new ObjectMemberRepository();
+    private static final MemberRepository repository = new FileMemberRepository();
 
     public static void main(String[] args) {
 
